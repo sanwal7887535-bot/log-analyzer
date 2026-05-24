@@ -1,16 +1,15 @@
-import re
 import json
 from datetime import datetime
 
-# regex patterns for different log styles
-ISO_PATTERN = r"\d{4}-\d{2}-\d{2}T"
-SLASH_PATTERN = r"\d{4}/\d{2}/\d{2}"
-DASH_PATTERN = r"\d{2}-[A-Za-z]{3}-\d{4}"
-EPOCH_PATTERN = r"^\d{10}$"
 
-
+# ---------------------------
+# TIMESTAMP PARSER
+# ---------------------------
 def parse_timestamp(raw):
     try:
+        if not raw:
+            return None
+
         if "T" in raw:
             return datetime.strptime(raw, "%Y-%m-%dT%H:%M:%SZ")
 
@@ -29,8 +28,14 @@ def parse_timestamp(raw):
     return None
 
 
+# ---------------------------
+# RESPONSE TIME PARSER
+# ---------------------------
 def parse_response_time(value):
     try:
+        if not value:
+            return None
+
         if value.endswith("ms"):
             return float(value.replace("ms", ""))
 
@@ -39,18 +44,22 @@ def parse_response_time(value):
 
         else:
             return float(value)
+
     except:
         return None
 
 
+# ---------------------------
+# PARSE SINGLE LINE
+# ---------------------------
 def parse_line(line):
     line = line.strip()
 
-    # skip empty lines
+    # empty line
     if not line:
         return None, "EMPTY_LINE"
 
-    # JSON format log
+    # JSON log
     if line.startswith("{"):
         try:
             data = json.loads(line)
@@ -65,33 +74,29 @@ def parse_line(line):
         except:
             return None, "MALFORMED_JSON"
 
+    # normal log
     parts = line.split()
 
-    # basic validation
     if len(parts) < 5:
         return None, "MALFORMED_LINE"
 
     try:
-        timestamp = parse_timestamp(parts[0])
-        ip = parts[1]
-        method = parts[2]
-        endpoint = parts[3]
-        status = parts[4]
-        response_time = parts[5] if len(parts) > 5 else None
-
         return {
-            "timestamp": timestamp,
-            "ip": ip,
-            "method": method,
-            "endpoint": endpoint,
-            "status": status,
-            "response_time": parse_response_time(response_time) if response_time else None
+            "timestamp": parse_timestamp(parts[0]),
+            "ip": parts[1],
+            "method": parts[2],
+            "endpoint": parts[3],
+            "status": parts[4],
+            "response_time": parse_response_time(parts[5]) if len(parts) > 5 else None
         }, "OK"
 
     except:
         return None, "ERROR"
 
 
+# ---------------------------
+# FILE PARSER (OPTIMIZED VERSION)
+# ---------------------------
 def parse_file(file_path):
     parsed = []
     errors = {
@@ -101,11 +106,12 @@ def parse_file(file_path):
         "ERROR": 0
     }
 
-    with open(file_path, "r") as f:
+    # ✅ optimized streaming read (safe for large files)
+    with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
         for line in f:
             result, status = parse_line(line)
 
-            if status == "OK" or status == "OK_JSON":
+            if status in ("OK", "OK_JSON"):
                 parsed.append(result)
             else:
                 errors[status] = errors.get(status, 0) + 1

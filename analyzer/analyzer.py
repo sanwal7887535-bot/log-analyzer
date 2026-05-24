@@ -1,5 +1,19 @@
 from collections import defaultdict, Counter
+import json
 
+def export_report(stats, output_file="report.json"):
+    report = {
+        "total_requests": stats["total_requests"],
+        "error_requests": stats["error_requests"],
+        "endpoint_count": dict(stats["endpoint_count"]),
+        "ip_count": dict(stats["ip_count"]),
+        "status_count": dict(stats["status_count"])
+    }
+
+    with open(output_file, "w") as f:
+        json.dump(report, f, indent=4)
+
+    return output_file
 
 def analyze_logs(parsed_logs):
     stats = {
@@ -64,3 +78,15 @@ def calculate_error_rate(total, errors):
     if total == 0:
         return 0
     return round((errors / total) * 100, 2)
+
+
+import csv
+
+
+def export_csv(stats, filename="report.csv"):
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+
+        writer.writerow(["Metric", "Value"])
+        writer.writerow(["Total Requests", stats["total_requests"]])
+        writer.writerow(["Error Requests", stats["error_requests"]])
