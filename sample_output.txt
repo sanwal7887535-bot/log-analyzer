@@ -1,0 +1,22 @@
+===== LOG ANALYSIS REPORT =====
+
+Total Requests: 448
+Error Requests: 183
+Error Rate: 40.85%
+
+Top Endpoints:
+/api/users -> 42
+/api/login -> 31
+
+Top IPs:
+192.168.1.1 -> 19
+10.0.0.7 -> 17
+
+Parsing Errors:
+EMPTY_LINE -> 7
+MALFORMED_LINE -> 22
+MALFORMED_JSON -> 4
+ERROR -> 3
+
+JSON report saved to: report.json
+CSV report saved: report.csv

@@ -1,3 +1,38 @@
+# Virtual Environment
 venv/
+.env/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Test cache
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Generated reports
+report.json
+report.csv
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Matplotlib cache
+.matplotlib/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Coverage
+.coverage
+htmlcov/
