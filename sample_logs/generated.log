@@ -1,0 +1,500 @@
+25-May-2026 00:45:34 172.16.0.5 GET /api/cart 403 299
+25-May-2026 00:45:35 172.16.0.5 POST /api/users 200 235
+2026/05/25 00:45:36 192.168.1.1 DELETE /api/users 404 136ms
+2026/05/25 00:45:39 172.16.0.5 GET /api/cart 200 331
+1779651940 10.0.0.7 DELETE /api/cart 200 93ms
+2026/05/25 00:45:44 192.168.1.1 DELETE /api/users 201 188
+25-May-2026 00:45:52 172.16.0.5 DELETE /api/cart 403 362
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026-05-25T00:46:03Z 172.16.0.5 PUT /api/cart 403 0.507s
+25-May-2026 00:46:13 172.16.0.5 PUT /api/products 500 292ms
+1779651978 10.0.0.7 GET /api/cart 201 349ms
+1779651987 10.0.0.7 DELETE /api/orders 401 0.412s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779652006 172.16.0.5 DELETE /api/login 201 232ms
+2026-05-25T00:46:55Z 172.16.0.5 PUT /api/login 404 306
+1779652023 10.0.0.7 PUT /api/users 401 470ms
+1779652027 192.168.1.1 PUT /api/products 404 346ms
+1779652029 172.16.0.5 GET /api/orders 201 465
+1779652031 192.168.1.1 DELETE /api/users 401 255
+{"time": "2026/05/25 00:47:19", "ip": "192.168.1.53", "method": "DELETE", "endpoint": "/api/orders", "status": 400, "response": "350ms"}
+2026-05-25T00:47:22Z 192.168.1.1 PUT /api/login 403 162
+1779652045 172.16.0.5 PUT /api/login 404 208
+25-May-2026 00:47:26 192.168.1.1 POST /api/orders 403 1.129s
+1779652053 172.16.0.5 GET /api/cart 404 359
+{"time": "2026/05/25 00:47:41", "ip": "192.168.1.140", "method": "PUT", "endpoint": "/api/cart", "status": 401, "response": "331"}
+2026-05-25T00:47:48Z 192.168.1.1 PUT /api/products 201 1.097s
+2026-05-25T00:47:52Z 192.168.1.1 PUT /api/products 401 1.122s
+1779652081 172.16.0.5 POST /api/orders 403 264ms
+2026-05-25T00:48:03Z 192.168.1.1 DELETE /api/cart 200 0.147s
+{"time": "2026-05-25T00:48:11Z", "ip": "192.168.1.20", "method": "POST", "endpoint": "/api/users", "status": 401, "response": "0.918s"}
+2026-05-25T00:48:14Z 10.0.0.7 DELETE /api/users 404 357
+25-May-2026 00:48:18 172.16.0.5 POST /api/cart 403 51
+25-May-2026 00:48:28 192.168.1.1 DELETE /api/products 404 110ms
+2026-05-25T00:48:38Z 192.168.1.1 PUT /api/orders 401 0.99s
+1779652126 192.168.1.1 DELETE /api/login 403 473
+25-May-2026 00:48:52 192.168.1.1 GET /api/cart 500 74ms
+2026/05/25 00:48:54 172.16.0.5 DELETE /api/cart 500 1.215s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779652145 172.16.0.5 GET /api/orders 500 143ms
+{"time": "25-May-2026 00:49:07", "ip": "192.168.1.215", "method": "GET", "endpoint": "/api/login", "status": 500, "response": "330ms"}
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+25-May-2026 00:49:15 10.0.0.7 POST /api/cart 201 179
+25-May-2026 00:49:23 192.168.1.1 POST /api/login 401 359
+2026/05/25 00:49:29 172.16.0.5 PUT /api/cart 500 300
+2026/05/25 00:49:39 10.0.0.7 PUT /api/login 401 337
+{"time": "2026/05/25 00:49:42", "ip": "192.168.1.169", "method": "GET", "endpoint": "/api/orders", "status": 200, "response": "399ms"}
+1779652188 10.0.0.7 DELETE /api/cart 500 120
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+{"time": "25-May-2026 00:49:59", "ip": "192.168.1.95", "method": "POST", "endpoint": "/api/users", "status": 500, "response": "0.815s"}
+25-May-2026 00:50:05 192.168.1.1 POST /api/login 500 471ms
+1779652213 192.168.1.1 PUT /api/login 401 403
+1779652216 192.168.1.1 DELETE /api/users 404 343ms
+2026/05/25 00:50:20 10.0.0.7 GET /api/cart 404 0.07s
+{"time": "25-May-2026 00:50:27", "ip": "192.168.1.135", "method": "DELETE", "endpoint": "/api/orders", "status": 500, "response": "461ms"}
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+{"time": "2026-05-25T00:50:42Z", "ip": "192.168.1.161", "method": "DELETE", "endpoint": "/api/products", "status": 404, "response": "114ms"}
+25-May-2026 00:50:48 192.168.1.1 DELETE /api/users 201 354ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 00:50:59 192.168.1.1 PUT /api/orders 500 178ms
+2026-05-25T00:51:00Z 172.16.0.5 PUT /api/orders 404 477ms
+{"time": "2026/05/25 00:51:07", "ip": "192.168.1.141", "method": "DELETE", "endpoint": "/api/cart", "status": 400, "response": "480ms"}
+2026-05-25T00:51:12Z 172.16.0.5 DELETE /api/login 500 190ms
+25-May-2026 00:51:18 172.16.0.5 PUT /api/login 500 1.188s
+2026/05/25 00:51:24 10.0.0.7 DELETE /api/cart 500 179ms
+2026/05/25 00:51:29 172.16.0.5 DELETE /api/cart 403 0.477s
+2026-05-25T00:51:30Z 172.16.0.5 GET /api/products 400 1.036s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779652305 192.168.1.1 POST /api/products 401 1.273s
+2026-05-25T00:51:46Z 192.168.1.1 GET /api/login 500 0.404s
+2026-05-25T00:51:54Z 172.16.0.5 GET /api/products 403 180ms
+25-May-2026 00:52:03 192.168.1.1 POST /api/users 400 0.37s
+1779652331 192.168.1.1 GET /api/cart 500 46
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026-05-25T00:52:25Z 192.168.1.1 GET /api/products 401 413
+1779652354 192.168.1.1 POST /api/orders 400 297ms
+1779652357 10.0.0.7 GET /api/login 404 0.058s
+1779652358 192.168.1.1 DELETE /api/users 401 85ms
+25-May-2026 00:52:47 192.168.1.1 POST /api/users 201 0.504s
+2026/05/25 00:52:50 10.0.0.7 GET /api/products 200 452
+25-May-2026 00:52:57 10.0.0.7 GET /api/orders 200 1.495s
+2026-05-25T00:53:00Z 10.0.0.7 GET /api/login 201 162ms
+1779652389 10.0.0.7 PUT /api/products 400 0.781s
+2026/05/25 00:53:15 192.168.1.1 DELETE /api/login 200 98
+{"time": "2026/05/25 00:53:20", "ip": "192.168.1.156", "method": "DELETE", "endpoint": "/api/products", "status": 201, "response": "200ms"}
+2026-05-25T00:53:25Z 172.16.0.5 PUT /api/login 400 1.074s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779652409 192.168.1.1 GET /api/login 400 0.774s
+{"time": "1779652413", "ip": "192.168.1.23", "method": "PUT", "endpoint": "/api/orders", "status": 403, "response": "457ms"}
+1779652414 10.0.0.7 GET /api/users 404 242
+2026/05/25 00:53:39 10.0.0.7 DELETE /api/users 201 93
+2026-05-25T00:53:42Z 192.168.1.1 PUT /api/login 200 199ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779652438 172.16.0.5 PUT /api/users 201 475
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779652454 172.16.0.5 PUT /api/login 403 459
+2026-05-25T00:54:23Z 172.16.0.5 POST /api/users 400 117ms
+25-May-2026 00:54:29 192.168.1.1 PUT /api/cart 201 0.997s
+25-May-2026 00:54:34 10.0.0.7 PUT /api/cart 404 0.251s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026-05-25T00:54:37Z 10.0.0.7 GET /api/users 403 0.069s
+25-May-2026 00:54:42 172.16.0.5 POST /api/orders 200 0.747s
+25-May-2026 00:54:46 192.168.1.1 GET /api/orders 500 1.239s
+2026/05/25 00:54:56 172.16.0.5 GET /api/products 200 380ms
+25-May-2026 00:55:02 172.16.0.5 PUT /api/login 201 316ms
+2026-05-25T00:55:07Z 172.16.0.5 GET /api/users 500 0.406s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026-05-25T00:55:24Z 172.16.0.5 GET /api/orders 403 340
+25-May-2026 00:55:28 192.168.1.1 DELETE /api/orders 404 419ms
+2026-05-25T00:55:30Z 10.0.0.7 PUT /api/login 400 1.217s
+2026-05-25T00:55:35Z 172.16.0.5 POST /api/login 401 281ms
+25-May-2026 00:55:37 172.16.0.5 POST /api/login 404 99ms
+1779652539 172.16.0.5 PUT /api/login 403 302
+2026-05-25T00:55:41Z 192.168.1.1 DELETE /api/products 404 356ms
+25-May-2026 00:55:48 10.0.0.7 DELETE /api/login 401 0.16s
+2026/05/25 00:55:56 172.16.0.5 PUT /api/users 403 0.846s
+25-May-2026 00:55:57 10.0.0.7 DELETE /api/cart 401 1.045s
+25-May-2026 00:56:04 172.16.0.5 PUT /api/cart 200 155ms
+{"time": "25-May-2026 00:56:10", "ip": "192.168.1.28", "method": "PUT", "endpoint": "/api/login", "status": 403, "response": "0.986s"}
+25-May-2026 00:56:16 10.0.0.7 POST /api/users 201 0.858s
+25-May-2026 00:56:22 10.0.0.7 GET /api/login 500 0.403s
+25-May-2026 00:56:23 192.168.1.1 DELETE /api/products 201 215ms
+25-May-2026 00:56:32 10.0.0.7 GET /api/orders 401 235ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 00:56:47 172.16.0.5 GET /api/products 201 0.231s
+2026/05/25 00:56:54 172.16.0.5 DELETE /api/cart 404 248ms
+2026/05/25 00:56:56 10.0.0.7 GET /api/users 401 133
+25-May-2026 00:57:01 192.168.1.1 GET /api/orders 201 307
+1779652624 192.168.1.1 POST /api/orders 401 106
+2026-05-25T00:57:11Z 172.16.0.5 DELETE /api/login 404 254ms
+1779652641 172.16.0.5 POST /api/users 500 102
+2026-05-25T00:57:28Z 10.0.0.7 POST /api/orders 200 495ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+{"time": "2026/05/25 00:57:43", "ip": "192.168.1.51", "method": "POST", "endpoint": "/api/orders", "status": 400, "response": "1.341s"}
+{"time": "1779652671", "ip": "192.168.1.232", "method": "DELETE", "endpoint": "/api/users", "status": 400, "response": "168"}
+2026/05/25 00:57:54 10.0.0.7 DELETE /api/users 400 455ms
+2026-05-25T00:57:57Z 192.168.1.1 DELETE /api/login 200 116
+1779652678 10.0.0.7 PUT /api/products 201 1.155s
+2026/05/25 00:58:07 172.16.0.5 POST /api/products 403 264
+25-May-2026 00:58:16 172.16.0.5 DELETE /api/cart 401 430
+25-May-2026 00:58:24 172.16.0.5 DELETE /api/orders 201 217ms
+25-May-2026 00:58:27 192.168.1.1 DELETE /api/products 400 157ms
+2026-05-25T00:58:37Z 172.16.0.5 POST /api/orders 401 97ms
+2026/05/25 00:58:46 192.168.1.1 PUT /api/login 404 358
+{"time": "25-May-2026 00:58:48", "ip": "192.168.1.26", "method": "POST", "endpoint": "/api/orders", "status": 404, "response": "1.008s"}
+{"time": "25-May-2026 00:58:52", "ip": "192.168.1.212", "method": "POST", "endpoint": "/api/cart", "status": 400, "response": "240"}
+2026-05-25T00:58:55Z 172.16.0.5 PUT /api/products 400 1.025s
+1779652737 192.168.1.1 PUT /api/users 200 262
+2026-05-25T00:59:04Z 10.0.0.7 PUT /api/users 403 112ms
+2026-05-25T00:59:06Z 172.16.0.5 PUT /api/cart 403 0.754s
+1779652753 172.16.0.5 POST /api/users 201 342ms
+2026/05/25 00:59:16 10.0.0.7 DELETE /api/users 201 487
+1779652759 10.0.0.7 GET /api/users 404 30ms
+2026/05/25 00:59:29 10.0.0.7 DELETE /api/login 500 0.748s
+2026-05-25T00:59:30Z 172.16.0.5 PUT /api/orders 403 1.449s
+2026-05-25T00:59:34Z 192.168.1.1 DELETE /api/cart 404 409ms
+25-May-2026 00:59:39 172.16.0.5 GET /api/orders 500 169
+2026/05/25 00:59:49 10.0.0.7 GET /api/cart 403 384ms
+2026-05-25T00:59:53Z 192.168.1.1 DELETE /api/login 403 244
+{"time": "25-May-2026 01:00:03", "ip": "192.168.1.183", "method": "POST", "endpoint": "/api/users", "status": 404, "response": "0.865s"}
+2026-05-25T01:00:12Z 172.16.0.5 DELETE /api/login 201 269ms
+2026/05/25 01:00:21 192.168.1.1 GET /api/login 400 393ms
+1779652827 10.0.0.7 POST /api/products 401 1.396s
+25-May-2026 01:00:36 10.0.0.7 DELETE /api/products 401 409
+2026-05-25T01:00:45Z 10.0.0.7 GET /api/login 201 358
+1779652848 10.0.0.7 POST /api/login 200 315
+25-May-2026 01:00:58 10.0.0.7 GET /api/products 201 75ms
+{"time": "2026-05-25T01:01:01Z", "ip": "192.168.1.203", "method": "DELETE", "endpoint": "/api/orders", "status": 500, "response": "1.36s"}
+2026-05-25T01:01:10Z 172.16.0.5 GET /api/login 400 352ms
+25-May-2026 01:01:11 10.0.0.7 PUT /api/users 401 135ms
+1779652872 10.0.0.7 GET /api/cart 400 262
+25-May-2026 01:01:15 192.168.1.1 DELETE /api/products 401 414ms
+1779652881 172.16.0.5 GET /api/products 500 0.997s
+25-May-2026 01:01:26 192.168.1.1 GET /api/orders 403 40ms
+2026/05/25 01:01:35 192.168.1.1 PUT /api/orders 200 294
+2026-05-25T01:01:42Z 10.0.0.7 DELETE /api/users 400 364ms
+25-May-2026 01:01:48 10.0.0.7 POST /api/users 500 378
+25-May-2026 01:01:51 192.168.1.1 DELETE /api/cart 400 318
+{"time": "25-May-2026 01:01:55", "ip": "192.168.1.23", "method": "PUT", "endpoint": "/api/login", "status": 401, "response": "61ms"}
+1779652917 192.168.1.1 POST /api/users 404 387
+1779652919 10.0.0.7 POST /api/orders 500 391ms
+2026/05/25 01:02:03 172.16.0.5 POST /api/login 401 243
+1779652927 192.168.1.1 GET /api/cart 403 219ms
+2026/05/25 01:02:10 10.0.0.7 GET /api/login 403 298ms
+25-May-2026 01:02:14 192.168.1.1 DELETE /api/orders 500 216
+25-May-2026 01:02:22 10.0.0.7 POST /api/users 200 80
+25-May-2026 01:02:32 192.168.1.1 PUT /api/cart 500 0.077s
+2026-05-25T01:02:40Z 192.168.1.1 DELETE /api/users 404 360ms
+2026/05/25 01:02:48 172.16.0.5 POST /api/login 500 0.624s
+25-May-2026 01:02:53 192.168.1.1 PUT /api/products 200 199ms
+{"time": "2026-05-25T01:03:02Z", "ip": "192.168.1.213", "method": "POST", "endpoint": "/api/login", "status": 400, "response": "0.213s"}
+1779652991 192.168.1.1 GET /api/orders 403 428
+{"time": "2026/05/25 01:03:14", "ip": "192.168.1.93", "method": "POST", "endpoint": "/api/login", "status": 200, "response": "0.138s"}
+2026-05-25T01:03:16Z 192.168.1.1 DELETE /api/users 400 462ms
+2026-05-25T01:03:25Z 172.16.0.5 DELETE /api/login 200 223
+25-May-2026 01:03:34 172.16.0.5 PUT /api/products 500 146
+1779653016 172.16.0.5 PUT /api/cart 400 0.94s
+25-May-2026 01:03:40 10.0.0.7 POST /api/orders 401 431
+2026/05/25 01:03:50 172.16.0.5 POST /api/login 401 217
+25-May-2026 01:03:54 10.0.0.7 GET /api/orders 401 205
+2026-05-25T01:03:56Z 10.0.0.7 GET /api/products 200 62ms
+2026-05-25T01:04:05Z 172.16.0.5 GET /api/orders 200 359ms
+25-May-2026 01:04:06 192.168.1.1 POST /api/users 403 243
+1779653056 172.16.0.5 DELETE /api/cart 401 267
+2026-05-25T01:04:22Z 10.0.0.7 GET /api/users 400 144ms
+2026/05/25 01:04:23 172.16.0.5 POST /api/cart 201 67ms
+1779653067 10.0.0.7 DELETE /api/users 403 1.09s
+25-May-2026 01:04:33 10.0.0.7 GET /api/login 401 372
+{"time": "25-May-2026 01:04:40", "ip": "192.168.1.196", "method": "POST", "endpoint": "/api/products", "status": 200, "response": "236ms"}
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 01:04:49 172.16.0.5 POST /api/users 201 419ms
+2026-05-25T01:04:57Z 10.0.0.7 PUT /api/products 404 413ms
+{"time": "1779653103", "ip": "192.168.1.18", "method": "GET", "endpoint": "/api/login", "status": 200, "response": "424"}
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026-05-25T01:05:11Z 10.0.0.7 GET /api/products 500 0.634s
+{"time": "25-May-2026 01:05:15", "ip": "192.168.1.63", "method": "GET", "endpoint": "/api/login", "status": 201, "response": "73"}
+2026-05-25T01:05:25Z 172.16.0.5 PUT /api/login 403 0.301s
+2026-05-25T01:05:32Z 172.16.0.5 PUT /api/products 404 50ms
+25-May-2026 01:05:40 172.16.0.5 DELETE /api/login 404 0.63s
+{"time": "2026-05-25T01:05:42Z", "ip": "192.168.1.68", "method": "GET", "endpoint": "/api/login", "status": 200, "response": "365"}
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+25-May-2026 01:05:57 10.0.0.7 PUT /api/cart 201 1.15s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 01:06:14 10.0.0.7 POST /api/orders 401 329
+{"time": "1779653178", "ip": "192.168.1.93", "method": "POST", "endpoint": "/api/login", "status": 201, "response": "128"}
+1779653181 172.16.0.5 PUT /api/login 500 0.386s
+2026/05/25 01:06:30 172.16.0.5 DELETE /api/login 401 0.54s
+25-May-2026 01:06:37 10.0.0.7 PUT /api/orders 404 140ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779653206 192.168.1.1 GET /api/cart 400 0.183s
+2026-05-25T01:06:48Z 10.0.0.7 POST /api/login 404 58
+25-May-2026 01:06:56 172.16.0.5 DELETE /api/products 200 219
+2026-05-25T01:06:58Z 172.16.0.5 GET /api/orders 404 56ms
+2026-05-25T01:07:00Z 10.0.0.7 POST /api/users 200 0.974s
+25-May-2026 01:07:07 172.16.0.5 PUT /api/orders 200 0.739s
+2026-05-25T01:07:09Z 172.16.0.5 PUT /api/products 401 280ms
+2026/05/25 01:07:12 172.16.0.5 GET /api/login 401 429ms
+25-May-2026 01:07:20 10.0.0.7 POST /api/login 400 0.443s
+25-May-2026 01:07:27 192.168.1.1 GET /api/users 403 0.06s
+1779653249 172.16.0.5 PUT /api/products 403 1.019s
+2026/05/25 01:07:36 10.0.0.7 GET /api/users 403 1.233s
+2026-05-25T01:07:44Z 10.0.0.7 PUT /api/orders 403 35ms
+2026/05/25 01:07:47 10.0.0.7 DELETE /api/users 201 136
+2026-05-25T01:07:54Z 192.168.1.1 DELETE /api/users 400 0.616s
+2026-05-25T01:08:01Z 10.0.0.7 DELETE /api/products 403 267ms
+2026-05-25T01:08:06Z 10.0.0.7 PUT /api/cart 201 214
+2026-05-25T01:08:10Z 192.168.1.1 POST /api/orders 500 0.263s
+25-May-2026 01:08:14 172.16.0.5 DELETE /api/products 200 360
+1779653298 172.16.0.5 POST /api/orders 200 277ms
+2026-05-25T01:08:23Z 10.0.0.7 DELETE /api/products 200 0.722s
+2026-05-25T01:08:28Z 10.0.0.7 PUT /api/cart 403 1.361s
+2026-05-25T01:08:36Z 192.168.1.1 POST /api/products 400 26
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 01:08:44 192.168.1.1 POST /api/users 400 356
+2026/05/25 01:08:48 192.168.1.1 GET /api/users 401 85
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026-05-25T01:09:04Z 172.16.0.5 POST /api/orders 200 195ms
+{"time": "1779653347", "ip": "192.168.1.139", "method": "GET", "endpoint": "/api/users", "status": 500, "response": "149ms"}
+25-May-2026 01:09:09 10.0.0.7 POST /api/users 400 133
+2026/05/25 01:09:10 192.168.1.1 POST /api/users 201 0.142s
+25-May-2026 01:09:19 10.0.0.7 GET /api/users 200 329ms
+2026/05/25 01:09:27 192.168.1.1 DELETE /api/products 404 0.244s
+2026/05/25 01:09:32 192.168.1.1 POST /api/users 403 0.203s
+{"time": "1779653378", "ip": "192.168.1.63", "method": "POST", "endpoint": "/api/products", "status": 404, "response": "0.052s"}
+25-May-2026 01:09:40 192.168.1.1 POST /api/login 400 37ms
+25-May-2026 01:09:45 10.0.0.7 POST /api/cart 201 1.306s
+1779653394 172.16.0.5 DELETE /api/products 404 62ms
+2026-05-25T01:10:02Z 10.0.0.7 PUT /api/orders 401 253
+25-May-2026 01:10:06 10.0.0.7 GET /api/orders 404 0.875s
+2026-05-25T01:10:11Z 192.168.1.1 GET /api/users 404 430ms
+2026-05-25T01:10:12Z 10.0.0.7 PUT /api/users 401 417
+25-May-2026 01:10:20 172.16.0.5 GET /api/products 500 0.366s
+1779653422 172.16.0.5 PUT /api/orders 201 269
+1779653428 10.0.0.7 POST /api/login 201 1.076s
+25-May-2026 01:10:35 10.0.0.7 PUT /api/orders 401 478
+2026/05/25 01:10:40 172.16.0.5 PUT /api/cart 404 374ms
+25-May-2026 01:10:45 192.168.1.1 POST /api/login 403 1.359s
+2026/05/25 01:10:54 192.168.1.1 GET /api/login 400 0.863s
+{"time": "25-May-2026 01:10:56", "ip": "192.168.1.199", "method": "PUT", "endpoint": "/api/login", "status": 201, "response": "272"}
+{"time": "1779653459", "ip": "192.168.1.85", "method": "GET", "endpoint": "/api/users", "status": 401, "response": "1.462s"}
+2026-05-25T01:11:05Z 10.0.0.7 POST /api/products 404 0.908s
+2026-05-25T01:11:14Z 172.16.0.5 POST /api/orders 500 30
+{"time": "2026/05/25 01:11:18", "ip": "192.168.1.194", "method": "GET", "endpoint": "/api/users", "status": 500, "response": "471ms"}
+25-May-2026 01:11:27 172.16.0.5 POST /api/cart 201 137ms
+1779653497 10.0.0.7 GET /api/products 401 164ms
+25-May-2026 01:11:42 172.16.0.5 GET /api/cart 200 1.372s
+2026/05/25 01:11:43 192.168.1.1 DELETE /api/orders 401 144ms
+25-May-2026 01:11:46 172.16.0.5 GET /api/cart 401 40ms
+25-May-2026 01:11:56 192.168.1.1 GET /api/products 201 146
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+25-May-2026 01:12:12 192.168.1.1 POST /api/orders 401 56ms
+25-May-2026 01:12:14 172.16.0.5 DELETE /api/products 401 250
+2026/05/25 01:12:20 10.0.0.7 POST /api/users 201 108
+1779653542 192.168.1.1 DELETE /api/cart 200 61ms
+{"time": "2026-05-25T01:12:28Z", "ip": "192.168.1.171", "method": "PUT", "endpoint": "/api/cart", "status": 200, "response": "254ms"}
+25-May-2026 01:12:36 172.16.0.5 GET /api/products 401 469ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+25-May-2026 01:12:59 10.0.0.7 DELETE /api/orders 404 0.259s
+2026/05/25 01:13:04 172.16.0.5 GET /api/login 200 0.185s
+25-May-2026 01:13:05 172.16.0.5 POST /api/login 401 0.53s
+1779653591 10.0.0.7 POST /api/login 500 51
+2026/05/25 01:13:12 10.0.0.7 PUT /api/login 401 314
+25-May-2026 01:13:18 10.0.0.7 GET /api/login 403 0.68s
+25-May-2026 01:13:24 192.168.1.1 DELETE /api/users 401 0.428s
+1779653611 192.168.1.1 PUT /api/users 400 393
+25-May-2026 01:13:38 172.16.0.5 POST /api/orders 403 467ms
+2026-05-25T01:13:44Z 192.168.1.1 POST /api/cart 400 446ms
+2026/05/25 01:13:53 172.16.0.5 GET /api/users 401 0.269s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779653640 172.16.0.5 GET /api/users 404 0.888s
+2026/05/25 01:14:07 10.0.0.7 DELETE /api/orders 500 0.127s
+2026/05/25 01:14:08 172.16.0.5 GET /api/cart 201 34
+1779653654 172.16.0.5 DELETE /api/users 400 0.351s
+2026/05/25 01:14:21 192.168.1.1 POST /api/users 500 253ms
+2026-05-25T01:14:22Z 172.16.0.5 DELETE /api/users 200 197
+1779653670 192.168.1.1 DELETE /api/login 201 133ms
+25-May-2026 01:14:34 10.0.0.7 POST /api/orders 200 50
+1779653684 10.0.0.7 POST /api/products 401 236ms
+25-May-2026 01:14:47 172.16.0.5 POST /api/cart 500 1.265s
+2026/05/25 01:14:51 172.16.0.5 POST /api/login 403 105
+2026-05-25T01:14:58Z 10.0.0.7 POST /api/login 500 269ms
+2026/05/25 01:15:07 172.16.0.5 DELETE /api/orders 201 468ms
+2026/05/25 01:15:16 192.168.1.1 POST /api/cart 200 158ms
+2026/05/25 01:15:18 10.0.0.7 POST /api/users 403 0.276s
+25-May-2026 01:15:23 172.16.0.5 PUT /api/login 404 67
+2026-05-25T01:15:31Z 10.0.0.7 POST /api/users 500 0.264s
+1779653734 10.0.0.7 POST /api/products 404 412ms
+2026/05/25 01:15:42 172.16.0.5 PUT /api/users 401 95
+2026-05-25T01:15:45Z 192.168.1.1 POST /api/cart 404 149
+{"time": "25-May-2026 01:15:48", "ip": "192.168.1.190", "method": "POST", "endpoint": "/api/orders", "status": 500, "response": "324ms"}
+{"time": "2026/05/25 01:15:53", "ip": "192.168.1.59", "method": "GET", "endpoint": "/api/products", "status": 200, "response": "239"}
+25-May-2026 01:16:01 10.0.0.7 GET /api/login 404 146ms
+25-May-2026 01:16:03 10.0.0.7 POST /api/login 200 370ms
+2026-05-25T01:16:07Z 172.16.0.5 DELETE /api/orders 404 67
+2026-05-25T01:16:14Z 172.16.0.5 DELETE /api/login 500 142
+1779653776 172.16.0.5 PUT /api/users 200 263ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+25-May-2026 01:16:25 192.168.1.1 POST /api/login 201 392
+2026-05-25T01:16:28Z 172.16.0.5 PUT /api/orders 403 54
+1779653790 10.0.0.7 DELETE /api/products 401 1.307s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779653798 10.0.0.7 PUT /api/login 401 136ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 01:16:51 172.16.0.5 DELETE /api/cart 201 0.44s
+2026/05/25 01:16:59 192.168.1.1 POST /api/orders 401 422
+2026-05-25T01:17:04Z 172.16.0.5 POST /api/cart 400 137
+2026/05/25 01:17:09 10.0.0.7 POST /api/orders 400 396ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 01:17:18 172.16.0.5 PUT /api/login 201 279ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 01:17:33 10.0.0.7 GET /api/cart 200 1.096s
+25-May-2026 01:17:34 192.168.1.1 DELETE /api/users 201 139
+2026/05/25 01:17:39 192.168.1.1 PUT /api/users 201 458ms
+{"time": "2026/05/25 01:17:49", "ip": "192.168.1.238", "method": "DELETE", "endpoint": "/api/orders", "status": 200, "response": "0.78s"}
+2026-05-25T01:17:52Z 192.168.1.1 PUT /api/products 400 245ms
+{"time": "2026/05/25 01:17:54", "ip": "192.168.1.213", "method": "DELETE", "endpoint": "/api/login", "status": 400, "response": "407ms"}
+1779653879 172.16.0.5 POST /api/cart 200 108
+2026/05/25 01:18:03 172.16.0.5 GET /api/login 404 1.403s
+1779653889 172.16.0.5 DELETE /api/cart 403 1.485s
+2026/05/25 01:18:12 10.0.0.7 PUT /api/cart 201 0.418s
+2026-05-25T01:18:16Z 10.0.0.7 DELETE /api/orders 400 389ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 01:18:20 192.168.1.1 DELETE /api/users 200 288
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+25-May-2026 01:18:27 172.16.0.5 GET /api/cart 404 0.398s
+25-May-2026 01:18:37 192.168.1.1 POST /api/products 401 96
+2026/05/25 01:18:41 10.0.0.7 GET /api/users 404 325ms
+2026-05-25T01:18:44Z 192.168.1.1 GET /api/orders 201 196
+1779653927 192.168.1.1 GET /api/cart 403 0.89s
+2026/05/25 01:18:51 172.16.0.5 GET /api/login 200 67
+1779653934 172.16.0.5 GET /api/cart 500 255ms
+2026/05/25 01:19:04 10.0.0.7 POST /api/orders 500 315ms
+2026/05/25 01:19:07 192.168.1.1 DELETE /api/login 400 87ms
+2026/05/25 01:19:09 172.16.0.5 POST /api/orders 500 304
+1779653957 172.16.0.5 PUT /api/products 500 0.416s
+{"time": "25-May-2026 01:19:19", "ip": "192.168.1.32", "method": "DELETE", "endpoint": "/api/products", "status": 400, "response": "460"}
+2026/05/25 01:19:24 172.16.0.5 POST /api/cart 400 358
+2026-05-25T01:19:30Z 172.16.0.5 GET /api/orders 500 174
+2026-05-25T01:19:39Z 172.16.0.5 PUT /api/cart 500 0.054s
+2026-05-25T01:19:46Z 172.16.0.5 POST /api/cart 404 56
+2026-05-25T01:19:47Z 172.16.0.5 GET /api/products 403 1.487s
+2026/05/25 01:19:51 10.0.0.7 POST /api/login 403 107
+2026-05-25T01:19:58Z 10.0.0.7 PUT /api/users 400 0.11s
+{"time": "1779654007", "ip": "192.168.1.41", "method": "POST", "endpoint": "/api/products", "status": 201, "response": "432ms"}
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779654019 192.168.1.1 DELETE /api/products 201 0.313s
+2026-05-25T01:20:22Z 192.168.1.1 POST /api/orders 401 231
+25-May-2026 01:20:23 10.0.0.7 PUT /api/orders 200 490
+1779654024 10.0.0.7 POST /api/products 201 484ms
+2026/05/25 01:20:34 10.0.0.7 POST /api/products 404 424
+2026-05-25T01:20:39Z 10.0.0.7 DELETE /api/login 403 379ms
+1779654044 10.0.0.7 DELETE /api/cart 404 485
+2026/05/25 01:20:46 172.16.0.5 DELETE /api/users 400 179ms
+{"time": "2026-05-25T01:20:48Z", "ip": "192.168.1.102", "method": "GET", "endpoint": "/api/orders", "status": 201, "response": "185"}
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026-05-25T01:20:58Z 192.168.1.1 POST /api/users 404 1.204s
+1779654060 10.0.0.7 DELETE /api/products 403 129
+25-May-2026 01:21:07 172.16.0.5 GET /api/orders 404 81ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 01:21:17 10.0.0.7 DELETE /api/login 403 450
+{"time": "2026-05-25T01:21:23Z", "ip": "192.168.1.253", "method": "POST", "endpoint": "/api/login", "status": 400, "response": "0.486s"}
+{"time": "2026-05-25T01:21:27Z", "ip": "192.168.1.210", "method": "PUT", "endpoint": "/api/users", "status": 500, "response": "364"}
+1779654097 172.16.0.5 DELETE /api/login 500 0.257s
+25-May-2026 01:21:43 10.0.0.7 DELETE /api/cart 401 442
+2026/05/25 01:21:48 172.16.0.5 GET /api/users 401 171ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779654125 172.16.0.5 DELETE /api/cart 401 413ms
+2026-05-25T01:22:07Z 10.0.0.7 PUT /api/cart 400 0.425s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779654138 192.168.1.1 DELETE /api/orders 500 224ms
+1779654142 172.16.0.5 DELETE /api/cart 201 0.344s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+25-May-2026 01:22:37 192.168.1.1 GET /api/orders 201 1.012s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 01:22:42 192.168.1.1 POST /api/products 403 369
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026-05-25T01:22:47Z 10.0.0.7 GET /api/cart 403 0.203s
+2026-05-25T01:22:56Z 192.168.1.1 PUT /api/login 404 300
+1779654180 172.16.0.5 DELETE /api/cart 401 175ms
+1779654182 172.16.0.5 GET /api/users 201 384
+2026-05-25T01:23:12Z 10.0.0.7 POST /api/cart 200 0.076s
+25-May-2026 01:23:18 10.0.0.7 PUT /api/products 400 0.102s
+2026-05-25T01:23:28Z 172.16.0.5 POST /api/login 500 0.254s
+2026/05/25 01:23:30 172.16.0.5 PUT /api/login 201 1.478s
+25-May-2026 01:23:38 172.16.0.5 GET /api/products 500 297ms
+2026-05-25T01:23:44Z 10.0.0.7 PUT /api/users 201 0.052s
+2026-05-25T01:23:51Z 10.0.0.7 POST /api/users 401 151
+25-May-2026 01:24:01 192.168.1.1 POST /api/products 404 399
+{"time": "2026-05-25T01:24:09Z", "ip": "192.168.1.160", "method": "GET", "endpoint": "/api/users", "status": 500, "response": "0.391s"}
+1779654256 10.0.0.7 DELETE /api/products 404 1.26s
+2026-05-25T01:24:18Z 172.16.0.5 POST /api/cart 201 177ms
+1779654262 192.168.1.1 POST /api/login 404 1.151s
+2026/05/25 01:24:25 10.0.0.7 PUT /api/products 400 393
+1779654274 172.16.0.5 GET /api/products 500 460
+2026-05-25T01:24:43Z 172.16.0.5 DELETE /api/products 500 248
+2026-05-25T01:24:52Z 192.168.1.1 DELETE /api/login 200 493
+2026/05/25 01:24:56 192.168.1.1 PUT /api/products 400 492ms
+2026/05/25 01:25:04 10.0.0.7 POST /api/orders 401 0.841s
+2026/05/25 01:25:12 172.16.0.5 DELETE /api/products 500 316
+2026/05/25 01:25:18 172.16.0.5 GET /api/login 403 340ms
+{"time": "2026/05/25 01:25:21", "ip": "192.168.1.90", "method": "POST", "endpoint": "/api/login", "status": 200, "response": "493"}
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779654332 172.16.0.5 DELETE /api/orders 404 54
+2026/05/25 01:25:39 192.168.1.1 POST /api/orders 200 0.109s
+2026-05-25T01:25:46Z 192.168.1.1 PUT /api/orders 500 375
+2026/05/25 01:25:54 192.168.1.1 PUT /api/orders 404 78
+2026/05/25 01:26:04 10.0.0.7 PUT /api/users 401 204ms
+25-May-2026 01:26:08 10.0.0.7 DELETE /api/cart 400 0.497s
+2026/05/25 01:26:14 10.0.0.7 GET /api/products 403 0.131s
+1779654383 10.0.0.7 PUT /api/orders 404 377
+2026-05-25T01:26:31Z 192.168.1.1 GET /api/cart 200 1.333s
+25-May-2026 01:26:39 172.16.0.5 POST /api/products 201 0.968s
+25-May-2026 01:26:48 192.168.1.1 POST /api/users 200 212
+2026-05-25T01:26:54Z 172.16.0.5 POST /api/cart 200 300
+2026/05/25 01:27:00 172.16.0.5 PUT /api/cart 403 462
+25-May-2026 01:27:04 192.168.1.1 PUT /api/products 500 0.521s
+2026-05-25T01:27:14Z 10.0.0.7 POST /api/users 404 0.884s
+1779654440 192.168.1.1 GET /api/users 201 0.067s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779654450 172.16.0.5 PUT /api/users 403 333
+{"time": "25-May-2026 01:27:36", "ip": "192.168.1.197", "method": "PUT", "endpoint": "/api/cart", "status": 401, "response": "0.903s"}
+1779654460 192.168.1.1 PUT /api/products 403 305
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+25-May-2026 01:27:58 172.16.0.5 GET /api/login 200 437ms
+25-May-2026 01:28:03 192.168.1.1 PUT /api/cart 500 96ms
+2026-05-25T01:28:05Z 172.16.0.5 GET /api/users 500 475ms
+1779654487 172.16.0.5 PUT /api/cart 400 215ms
+1779654488 10.0.0.7 DELETE /api/products 200 144ms
+1779654498 192.168.1.1 PUT /api/login 201 141ms
+2026-05-25T01:28:28Z 192.168.1.1 DELETE /api/login 201 202
+1779654513 10.0.0.7 DELETE /api/users 400 45ms
+1779654521 192.168.1.1 DELETE /api/login 403 341ms
+2026-05-25T01:28:48Z 192.168.1.1 DELETE /api/cart 404 1.229s
+2026-05-25T01:28:49Z 10.0.0.7 POST /api/orders 200 265ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026/05/25 01:28:56 172.16.0.5 PUT /api/cart 404 332
+25-May-2026 01:29:05 192.168.1.1 DELETE /api/orders 500 1.23s
+2026-05-25T01:29:10Z 172.16.0.5 PUT /api/products 403 313
+2026/05/25 01:29:14 10.0.0.7 POST /api/orders 500 0.869s
+25-May-2026 01:29:24 10.0.0.7 DELETE /api/orders 500 20ms
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+2026-05-25T01:29:42Z 172.16.0.5 GET /api/cart 401 402
+1779654590 192.168.1.1 DELETE /api/orders 201 1.058s
+MALFORMED_LOG_LINE_CORRUPTED_DATA
+1779654599 172.16.0.5 GET /api/users 201 499ms
+1779654600 172.16.0.5 POST /api/products 500 207
+1779654610 172.16.0.5 DELETE /api/login 404 84
+2026/05/25 01:30:19 172.16.0.5 GET /api/login 201 0.956s
+2026/05/25 01:30:22 192.168.1.1 POST /api/orders 201 265ms
+2026/05/25 01:30:24 10.0.0.7 PUT /api/products 403 379ms
+2026-05-25T01:30:26Z 10.0.0.7 DELETE /api/cart 400 121ms
+1779654630 172.16.0.5 GET /api/products 400 239
+{"time": "2026-05-25T01:30:39Z", "ip": "192.168.1.194", "method": "GET", "endpoint": "/api/login", "status": 404, "response": "486"}
+25-May-2026 01:30:49 192.168.1.1 PUT /api/users 404 353ms
+25-May-2026 01:30:52 10.0.0.7 DELETE /api/login 201 461ms
+2026/05/25 01:30:53 10.0.0.7 POST /api/users 200 0.57s
