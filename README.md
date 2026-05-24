@@ -24,12 +24,21 @@ A Python-based log analysis tool that processes server logs, handles malformed e
 ## ⚙️ Setup & Run
 1. Install Python
 
-Make sure Python 3.10+ is installed.
+    Make sure Python 3.10+ is installed.
 
 2. Generate Logs
+
 python scripts/generate_logs.py
+
 3. Run Analyzer
-python main.py
+
+4. python main.py
+
+5. python scripts/generate_logs.py
+
+6. python main.py sample_logs/generated.log
+
+7. python main.py path/to/logfile.log
  
 ---
 

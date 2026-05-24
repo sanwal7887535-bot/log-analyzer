@@ -1,3 +1,4 @@
+import sys
 from analyzer.parser import parse_file
 from analyzer.analyzer import (
     analyze_logs,
@@ -7,9 +8,12 @@ from analyzer.analyzer import (
     calculate_error_rate
 )
 
-
 def main():
-    file_path = "sample_logs/generated.log"
+    if len(sys.argv) < 2:
+        print("Usage: python main.py <log_file_path>")
+        return
+
+    file_path = sys.argv[1]
 
     logs, errors = parse_file(file_path)
     stats = analyze_logs(logs)
