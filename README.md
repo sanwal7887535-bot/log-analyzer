@@ -19,6 +19,58 @@ A Python-based log analysis tool that processes server logs, handles malformed e
   - Status code distribution
 - Never crashes on bad data
 
+
+---
+## ⚙️ Setup & Run
+1. Install Python
+
+Make sure Python 3.10+ is installed.
+
+2. Generate Logs
+python scripts/generate_logs.py
+3. Run Analyzer
+python main.py
+ 
 ---
 
 ## 📁 Project Structure
+log-analyzer/
+│
+├── analyzer/
+│   ├── parser.py
+│   ├── analyzer.py
+│   ├── utils.py
+│   └── models.py
+│
+├── scripts/
+│   └── generate_logs.py
+│
+├── sample_logs/
+│   └── generated.log
+│
+├── main.py
+├── README.md
+├── ANSWERS.md
+├── requirements.txt
+
+---
+
+## 📊 Sample Output
+Total Requests: 500
+Error Requests: 32
+Error Rate: 6.4%
+
+Top Endpoints:
+ /api/users -> 120
+ /api/login -> 90
+
+Slowest Endpoints:
+ /api/orders -> 245.3 ms
+---
+
+## 🔥 Notes
+
+- Built to handle real-world messy log data
+- Designed with scalability and error tolerance in mind
+- Focused on production-like log processing behavior
+
